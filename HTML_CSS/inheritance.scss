@@ -1,0 +1,16 @@
+%message{
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    padding:20px;
+    margin:20px;
+}
+
+.success {
+    @extend %message;
+    background-color:green;
+}
+
+.danger {
+    @extend %message;
+    background-color:red;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>practice</title>
+     <style>
+         #input {
+             
+             text-align:center;
+             margin-top:30px;
+         }
+     </style>     
+        
+    </head>
+    <body>
+        <form>
+            <div id="input">
+                <input type="text" placeholder="enter your username" name="name">
+                <input type="submit">
+
+            </div>
+            <div>
+                your planet?
+                <input type="radio" name="planet" value="mars">mars
+            </div>
+            <div id="input">
+                <input list="planet list" placeholder="select your planet" name="planet_list">
+                <datalist id="planet list">
+                    <option value="mars"></option>
+                    <option value="earth"></option>
+                </datalist>
+            </div>
+            
+        </form>
+    </body>
+</html>
